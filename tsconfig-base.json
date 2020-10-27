@@ -10,7 +10,10 @@
     "module": "UMD",
     "moduleResolution": "Node",
     "target": "ES2015",
-    "removeComments": true
+    "removeComments": true,
+    "types": [
+      "@types/node"
+    ]
   },
   "include": [
     "./src"
